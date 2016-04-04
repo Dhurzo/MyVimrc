@@ -28,7 +28,7 @@ vam install youcompleteme
 ***Instructions for all the other plugins:***
 
 - Download the .vimrc file.
-- cp Downloads /home/user/.vimrc
+- cp Downloads/vimrc /home/user/.vimrc
 - Install bundle with $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 - Open the .vimrc file with vim ( vim .vimrc)
 - Use the vim command to install plugins :PluginInstall
