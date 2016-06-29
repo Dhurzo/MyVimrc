@@ -33,6 +33,12 @@ vam install youcompleteme
 - Open the .vimrc file with vim ( vim .vimrc)
 - Use the vim command to install plugins :PluginInstall
 
+*** See the autoformat plugin documentation***
+https://github.com/Chiel92/vim-autoformat
+
+*** Changes ***
+- Plugin  for Rust
+
 Note: To see the NEERDtree you should type the comand :NERDTree
 
 

@@ -14,16 +14,18 @@ Plugin 'VundleVim/Vundle.vim'
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
 Plugin 'tpope/vim-fugitive'
-" Git plugin not hosted on GitHub
-Plugin 'git://git.wincent.com/command-t.git'
-" git repos on your local machine (i.e. when working on your own plugin)
-Plugin 'file:///home/gmarik/path/to/plugin'
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Install L9 and avoid a Naming conflict if you've already installed a
 " different version somewhere else.
 Plugin 'ascenator/L9', {'name': 'newL9'}
+
+" Rust Plugin
+Plugin 'rust-lang/rust.vim'
+
+"Autoformat : https://github.com/Chiel92/vim-autoformat
+Plugin 'Chiel92/vim-autoformat'
 
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'scrooloose/nerdtree'
@@ -94,7 +96,7 @@ filetype plugin indent on    " required
 "set incsearch		" Incremental search
 "set autowrite		" Automatically save before commands like :next and :make
 "set hidden		" Hide buffers when they are abandoned
-"set mouse=a		" Enable mouse usage (all modes)
+set mouse=a		" Enable mouse usage (all modes)
 
 "Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
