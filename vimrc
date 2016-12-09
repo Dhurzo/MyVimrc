@@ -31,6 +31,7 @@ Plugin 'nanotech/jellybeans.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'bling/vim-airline'
 Plugin 'tomasr/molokai'
+Plugin 'tpope/vim-surround'
 
 
 "Plugin 'scrooloose/syntastic' "if you are using Debian 8 or based, install it
@@ -105,8 +106,9 @@ endif
 
 syntax on
 set nu
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set expandtab
+set shiftwidth=4
 set hlsearch
 set t_Co=256
 colorscheme jellybeans
